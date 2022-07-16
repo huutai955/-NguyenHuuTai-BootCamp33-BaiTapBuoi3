@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 30px;">Bài Tập Buổi 13</h1>
+    <h2 style="text-align: center; margin-bottom: 30px;">Nguyễn Hữu Tài - Bootcamp33</h2>
+    <div class="container">
+        <div class="baitap">
+            <h1>Bài 1</h1>
+            <input type="text" id="salaryPerDay" placeholder="Nhập Lương Một Ngày">
+            <input type="text" id="workingDays" placeholder="Số Ngày Làm">
+            <button onclick="tinhTongLuong()" >Tính Tổng</button>
+            <span id="totalSalary">Tổng lương trong tháng là:</span>
+        </div>
+
+        <div class="baitap">
+            <h1>Bài 2</h1>
+            <input type="text" id="firstNumber" placeholder="Số thứ nhất">
+            <input type="text" id="secondNumber" placeholder="Số thứ hai">
+            <input type="text" id="thirdNumber" placeholder="Số thứ ba">
+            <input type="text" id="fourthNumber" placeholder="Số thứ tư">
+            <input type="text" id="fifthNumber" placeholder="Số thứ năm">
+            <button onclick="trungBinh()" >Giá Trị Trung Bình</button>
+            <span id="mediumNumber">Giá trị trung bình của 5 số thực là:</span>
+        </div>
+
+        <div class="baitap">
+            <h1>Bài 3</h1>
+            <input type="text" id="usd" placeholder="USD">
+            <button onclick="currencyExchange()" >Quy Đổi</button>
+            <span id="vietnamdong">Tổng tiền quy đổi từ USD sang Việt Nam Đồng là:</span>
+        </div>
+
+        <div class="baitap">
+            <h1>Bài 4</h1>
+            <input type="text" id="chieudai" placeholder="Chiều dài">
+            <input type="text" id="chieurong" placeholder="Chiều rộng">
+            <button onclick="rectangle()" >Tính</button>
+            <span id="dientich">Diện tích hình chữ nhật:</span>
+            <span id="chuvi">Chu vi hình chữ nhật:</span>
+        </div>
+
+        <div class="baitap">
+            <h1>Bài 5</h1>
+            <input type="text" id="number" placeholder="Nhập số có 2 chữ số">
+            <button onclick="totalNumber()">Tổng Hai Ký Số</button>
+            <span id="tonghaikyso">Tổng 2 ký số là:</span>
+        </div>
+    </div>
+
+    <script src="./JS/index.js"></script>
+</body>
+</html>
